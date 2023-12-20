@@ -45,7 +45,7 @@ ol {
   width: 100%;
   height: 100%;
 }
-/* Fade effect */
+
 .u-effect-fade .u-over-slide {
   opacity: 0;
   transition: all 500ms ease;
@@ -53,15 +53,11 @@ ol {
 .u-effect-fade:hover .u-over-slide {
   opacity: 1;
 }
-/* Over effect */
-/* Slide effect */
-/* Flip */
-/* Wooble */
-/* Zoom */
+
 .u-btn {
-  /*display: inline-block;*/
+  
   display: table;
-  /*TODO maye need another solution for negative marin*/
+  
   cursor: pointer;
   color: inherit;
   font-size: inherit;
@@ -580,112 +576,15 @@ a.u-opacity-70 {
   display: inline-block;
   flex: 1;
 }
-/*begin-commonstyles photoswipe*/
-/*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
-/*
-	Styles for basic PhotoSwipe functionality (sliding area, open/close transitions)
-*/
-/* pswp = photoswipe */
-/* style is added when JS option showHideOpacity is set to true */
-/*
-	Background is added as a separate element.
-	As animating opacity is much faster than animating rgba() background-color.
-*/
-/* Prevent selection and tap highlights */
-/*
-	stretched thumbnail or div placeholder element (see below)
-	style is added to avoid flickering in webkit/blink when layers overlap
-*/
-/*
-	div element that matches size of large image
-	large image loads on top of it
-*/
-/*
-	Error message appears when image is not loaded
-	(JS option errorMsg controls markup)
-*/
-/* previews */
-/* end previews  */
-/*end-commonstyles photoswipe*/
-/*begin-commonstyles photoswipe-default*/
-/*! PhotoSwipe Default UI CSS by Dmitry Semenov | photoswipe.com | MIT license */
-/*
 
-	Contents:
-
-	1. Buttons
-	2. Share modal and links
-	3. Index indicator ("1 of X" counter)
-	4. Caption
-	5. Loading indicator
-	6. Additional styles (root element, top bar, idle state, hidden state, etc.)
-
-*/
-/*
-
-	1. Buttons
-
- */
-/* <button> css reset */
-/* pswp__ui--over-close class it added when mouse is over element that should close gallery */
 @media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
-  /* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
+  
 }
-/* no arrows on touch screens */
-/*
-	Arrow buttons hit area
-	(icon is added to :before pseudo-element)
-*/
-/*
 
-	2. Share modal/popup and links
-
- */
-/* increase size of share links on touch devices */
-/*
-
-	3. Index indicator ("1 of X" counter)
-
- */
-/*
-
-	4. Caption
-
- */
-/* Fake caption element, used to calculate height of next/prev image */
-/*
-
-	5. Loading indicator (preloader)
-
-	You can play with it here - http://codepen.io/dimsemenov/pen/yyBWoR
-
- */
-/*
-
-	6. Additional styles
-
- */
-/* root element of UI */
-/* top black bar with buttons and "1 of X" indicator */
-/* pswp--has_mouse class is added only when two subsequent mousemove events occur */
-/* pswp__ui--fit class is added when main image "fits" between top bar and bottom bar (caption) */
-/* pswp__ui--idle class is added when mouse isn't moving for several seconds (JS option timeToIdle) */
-/*
-	pswp__ui--hidden class is added when controls are hidden
-	e.g. when user taps to toggle visibility of controls
-*/
-/* pswp__ui--one-slide class is added when there is just one item in gallery */
 .u-lightbox .u-gallery-item {
   cursor: pointer;
 }
-/*end-commonstyles photoswipe-default*/
-/*!
- * animate.css -http://daneden.me/animate
- * Version - 3.7.0
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2018 Daniel Eden
- */
+
 
  .u-body {
   --animation-fade_in-opacity: 0;
@@ -755,13 +654,7 @@ a.u-opacity-70 {
   
   
 }
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-/*begin-commonstyles animation*/
-/* Fix zoomIn animation for Internet Explorer */
-/*end-commonstyles animation*/
+
 .u-gallery-item {
   position: relative;
   overflow: hidden;
@@ -984,7 +877,7 @@ a.u-button-style.u-border-2 {
 .u-radius:before {
   border-radius: var(--top-left-radius, var(--border-top-left-radius, var(--radius, var(--border-radius, 0)))) var(--top-right-radius, var(--border-top-right-radius, var(--radius, var(--border-radius, 0)))) var(--bottom-right-radius, var(--border-bottom-right-radius, var(--radius, var(--border-radius, 0)))) var(--bottom-left-radius, var(--border-bottom-left-radius, var(--radius, var(--border-radius, 0)))) !important;
 }
-/*begin-variables font-family*/
+
 .u-body {
   font-family: 'Open Sans',sans-serif;
 }
@@ -992,8 +885,7 @@ h2,
 h3 {
   font-family: Roboto,sans-serif;
 }
-/*end-variables font-family*/
-/*begin-variables color*/
+
 .u-image {
   color: #111111;
 }
@@ -1005,10 +897,7 @@ h3 {
   background-color: #ffffff;
   --effect-scale: 1.1;
 }
-/*end-variables color*/
-/*begin-variables font*/
-/*end-variables font*/
-/*begin-variables colors*/
+
 .u-none.u-button-style,
 .u-none.u-button-style:hover,
 .u-none.u-button-style:focus,
@@ -1083,9 +972,7 @@ a.u-button-style.u-button-style.u-text-body-color:active,
 a.u-button-style.u-button-style.u-text-body-color[class*="u-border-"]:active {
   color: #0f0f0f !important;
 }
-/*end-variables colors*/
 
-/*begin-variables sitestylecss*/
 
 
 
